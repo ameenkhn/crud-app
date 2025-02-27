@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🚀 CRUD Application using Next.js, TailwindCSS, and DaisyUI
 
-## Getting Started
+📌 Project Description
+This is a CRUD (Create, Read, Update, Delete) application built with Next.js, TailwindCSS, and DaisyUI. The app interacts with the JSONPlaceholder API to simulate CRUD operations on a remote server. It provides a responsive, modern UI and ensures smooth data management with React Query, React Hook Form, and Zod for state handling and validation.
 
-First, run the development server:
+🚀 Features
+✅ Fetch and display data from JSONPlaceholder API
+✅ Create new items with React Hook Form & Zod validation
+✅ Edit existing items with a pre-filled form
+✅ Delete items with a confirmation prompt
+✅ Responsive design using TailwindCSS & DaisyUI
+✅ Asynchronous state management with React Query
+✅ Error handling for API requests
 
-```bash
+🛠 Tech Stack
+Technology	             Description
+Next.js	                 React framework for SSR & static sites
+TailwindCSS	             Utility-first CSS framework
+DaisyUI	                 Pre-styled TailwindCSS components
+React Query	             Efficient data fetching & caching
+React Hook Form	         Form handling & validation
+Zod	                     Schema-based validation library
+
+📂 Folder Structure
+/crud-app
+ ├── public/             # Static assets
+ ├── src/
+ │   ├── components/     # Reusable UI components
+ │   ├── pages/          # Next.js pages (CRUD operations)
+ │   ├── api/            # API interaction files
+ │   ├── styles/         # TailwindCSS styles
+ │   ├── utils/          # Helper functions
+ ├── .env               # Environment variables
+ ├── next.config.js     # Next.js configuration
+ ├── package.json       # Project dependencies
+ ├── README.md          # Project documentation
+
+⚡ Installation & Setup
+1️⃣ Clone the Repository
+git clone https://github.com/yourusername/crud-app.git
+cd crud-app
+2️⃣ Install Dependencies
+npm install
+3️⃣ Start the Development Server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This will start the app at http://localhost:3000/.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🔥 CRUD Operations
+🟢 Fetch Data (Read) : The application fetches data from JSONPlaceholder API and displays it in a list format.
+🟡 Create New Data : A form allows users to submit new items, Input validation is handled using Zod & React Hook Form.
+🔵 Update Existing Data : Users can edit items with a pre-filled form.
+🔴 Delete Data : Items can be deleted with a confirmation prompt.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+🌍 Deployment : The application is deployed on Vercel. You can access the live demo here:
+🔗 Live Demo: https://crud-app.vercel.app
+🚀 Deploy on Vercel
+To deploy your own version, run: npm run build vercel
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🚀 Ready to Start? Clone & Run the App Now!
+git clone https://github.com/yourusername/crud-app.git
+cd crud-app
+npm install
+npm run dev
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🎯 Final Thoughts
+This project is designed to enhance your Next.js, TailwindCSS, and DaisyUI skills while working with real-world CRUD operations. Whether you're learning or improving your web development skills, this project serves as a strong foundation for future applications.
